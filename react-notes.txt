@@ -1,3 +1,13 @@
 1. We'll not do npm install cause dependencies will be installed within our docker container 
 
-2.
+2. After writing command on Dockerfile & putting node_modules in .dockerignore
+
+3. In terminal: docker build -t react-docker .
+
+4. Then, to run app. we're saying, map our 5173 container to 5173 on host machine
+docker run -p 5173:5173 react-docker
+
+5. we'll add '--host' in package.json "dev":"vite --host" to expose our dev env
+
+6. If we do, we'll see live changes:
+docker run -p 5173:5173 -v "$(pwd):/app" -v /app/node_modules react-docker
