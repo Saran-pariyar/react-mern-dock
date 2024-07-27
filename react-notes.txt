@@ -11,3 +11,7 @@ docker run -p 5173:5173 react-docker
 
 6. If we do, we'll see live changes:
 docker run -p 5173:5173 -v "$(pwd):/app" -v /app/node_modules react-docker
+
+DOCKER COMPOSE
+
+1. run: docker init 
