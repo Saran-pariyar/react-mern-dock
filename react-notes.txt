@@ -15,3 +15,4 @@ docker run -p 5173:5173 -v "$(pwd):/app" -v /app/node_modules react-docker
 DOCKER COMPOSE
 
 1. run: docker init 
+2. While using docker compose, compose.yaml is imp part
