@@ -16,3 +16,6 @@ DOCKER COMPOSE
 
 1. run: docker init 
 2. While using docker compose, compose.yaml is imp part
+
+DOCKER COMPOSE WATCH
+-listen to changes and does re-running app, rebuilding container, sync changes etc
