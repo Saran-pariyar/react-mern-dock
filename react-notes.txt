@@ -19,3 +19,6 @@ DOCKER COMPOSE
 
 DOCKER COMPOSE WATCH
 -listen to changes and does re-running app, rebuilding container, sync changes etc
+
+we can do : docker compose watch
+Then we can see the live changes too
