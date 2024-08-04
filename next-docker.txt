@@ -1,0 +1,6 @@
+Steps: 
+
+npm install --package-lock-only
+docker init
+
+(our all docker files will be created now)
