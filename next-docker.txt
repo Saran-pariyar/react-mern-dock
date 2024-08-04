@@ -4,3 +4,9 @@ npm install --package-lock-only
 docker init
 
 (our all docker files will be created now)
+
+Edit yaml and Dockerfile
+
+docker compose up
+
+watch live changes: docker compose watch
